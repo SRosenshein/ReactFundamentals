@@ -1,3 +1,28 @@
 body {
-	background: blue;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+}
+
+ul {
+	padding: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.languages {
+	display: flex;
+	justify-content: center;
+}
+
+.languages li {
+	margin: 10px;
+	font-weight: bold;
+	cursor: pointer;
 }
